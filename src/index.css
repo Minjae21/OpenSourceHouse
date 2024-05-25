@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 1280px) {
+  .main-img {
+    display: none;
+  }
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html {
+  --textColor: #eaf1f5;
+  --backGround: #111827;
+  --darkBorder: rgb(53, 57, 91);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--backGround);
+  color: var(--textColor);
+}
+
+/* Header */
+
+nav {
+  padding-bottom: 100px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+.login {
+  right: 0;
+}
+
+/* Main */
+
+.main-writing {
+  padding-left: 70px;
+  display: flex;
+}
+
+.main-context {
+  padding-left: 70px;
+}
+
+.main-btn {
+  padding-left: 70px;
+}
+
+.main-img {
+  position: absolute;
+  right: 0;
+  margin-right: 170px;
+  margin-top: -130px;
+  width: 430px;
+  border-radius: 12px;
+}
+
+/* Project */
+.prj-container {
+  border: 1px solid var(--darkBorder);
+  width: 80%;
+  margin-left: 155px;
+  border-radius: 20px;
+}
+
+.prj-container2 {
+  border: 1px solid var(--darkBorder);
+  width: 80%;
+  margin-left: 155px;
+  margin-top: 50px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.prj-name {
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.prj-description {
+  font-size: 14px;
+}
+
+/* Footer */
+
+.footer-c {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 16px;
+  color:  rgba(224, 211, 211, 0.735);
+}
