@@ -1,4 +1,4 @@
-import Footer from './Footer.jsx'
+// import Footer from './Footer.jsx'
 
 function Home() {
 
@@ -16,15 +16,12 @@ function Home() {
         We believe open source solves real-world problems for everyone.<br/>Open Source House supports open source innovation, collaboration,<br/>and sustainability through our community.
       </p>
       <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start main-btn">
-        <a href="#" className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+        <a href="/register" className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
             Get started
-        </a>
-        <a href="#" className="text-sm font-semibold leading-6 text-white">
-            Learn more <span aria-hidden="true">→</span>
         </a>
             </div>
 
-      <Footer/>
+      {/* <Footer/> */}
       </>
     );
 }

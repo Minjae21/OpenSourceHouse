@@ -103,8 +103,38 @@ a {
   font-size: 14px;
 }
 
-/* Footer */
+/* Login */
+.google-login {
+  margin-left: 560px;
+  margin-top: 30px;
+}
 
+/* Register */
+.register-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  margin-bottom: 30px;
+}
+
+.register-input {
+  width: 250px;
+  height: 25px;
+  text-indent: 10px;
+  background-color: rgb(33, 36, 69);
+}
+
+.register-btn {
+  width: 150px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 45px;
+  border: 1px solid rgb(89, 96, 175);
+}
+
+/* Footer */
 .footer-c {
   position: absolute;
   bottom: 0;
