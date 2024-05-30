@@ -25,6 +25,10 @@ body {
   color: var(--textColor);
 }
 
+.first-container {
+  margin-top: 170px;
+}
+
 /* Header */
 
 nav {
@@ -107,6 +111,10 @@ a {
 .google-login {
   margin-left: 560px;
   margin-top: 30px;
+}
+
+.mt-2 {
+  color: black;
 }
 
 /* Register */
